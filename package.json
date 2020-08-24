@@ -1,0 +1,23 @@
+{
+    "name": "webformyself-webpack",
+    "version": "1.0.0",
+    "description": "webpack project",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack-dev-server --open --mode development",
+        "build": "webpack --mode production"
+    },
+    "keywords": [
+        "javascript",
+        "js",
+        "webpack"
+    ],
+    "author": "Davit Sahakyan",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0",
+        "path": "^0.12.7"
+    }
+}
