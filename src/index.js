@@ -1,1 +1,2 @@
-import "./modules/config";
+import "./modules/validation.js";
+import "./modules/style.css";

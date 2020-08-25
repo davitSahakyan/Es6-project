@@ -6,8 +6,19 @@
         <title>Es6+ Project</title>
     </head>
     <body>
-        <div>
-            <h1>Webpack and Babel</h1>
+        <div class="container">
+            <h1>User Login</h1>
+            <div class="loginContainer">
+                <form class="form" method="GET" name="form" id="form">
+                    <div class="title">login</div>
+                    <input type="text" id="loginInput" name="login" />
+                    <div id="loginError">Please fill up your login</div>
+                    <div class="title">password</div>
+                    <input type="password" id="passInput" name="password" />
+                    <div id="passwordError">Please fill up your password</div>
+                    <button type="submit" id="loginButton">log in</button>
+                </form>
+            </div>
         </div>
 
         <script src="./dist/bundle.js"></script>
